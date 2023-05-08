@@ -61,3 +61,7 @@ function StringCheck(){
     document.getElementById("namecheck").innerHTML=number;
     document.getElementById("namecheck").innerHTML=number1;
 }
+
+function StringMethods(){
+
+}
