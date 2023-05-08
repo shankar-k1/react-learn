@@ -39,7 +39,7 @@ let weight = 7.5;
 
 // Strings:
 let color = "Yellow";
-let lastName = "Johnson";
+
 
 // Booleans
 let x = true;
@@ -62,6 +62,44 @@ function StringCheck(){
     document.getElementById("namecheck").innerHTML=number1;
 }
 
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 function StringMethods(){
-
+    //String Methods
+    document.getElementById("demo1").innerHTML=text.length;
+    document.getElementById("demo1").innerHTML=text.slice(7);
+    document.getElementById("demo1").innerHTML=text.replace("ABCD","SHAN");
+    document.getElementById("demo1").innerHTML=text.toUpperCase;
+    document.getElementById("demo1").innerHTML=text.toLowerCase;
+    
 }
+
+//String search methods
+let tewxt = "Please locate where 'locate' occurs";
+let index = text.lastIndexOf("where");
+
+console.log(index);
+
+//1.search() ->regular expressions
+//2.index() ->Not suitable for greater Values
+//3.lastindexof()
+//
+
+let firstName="Ricky";
+let lastName = "Johnson";
+
+let text_result = 'Welcome onboard ${firstName}, ${lastName}';
+document.getElementById("demo2").innerHTML = text_result;
+
+console.log(text_result);
+
+/*With BigInt the total number of supported data types in JavaScript is 8:
+
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+*/
